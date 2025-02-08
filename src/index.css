@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav-item {
+    @apply px-4 py-2 rounded-md text-black hover:bg-pink-100 hover:text-pink-600 cursor-pointer;
+}
